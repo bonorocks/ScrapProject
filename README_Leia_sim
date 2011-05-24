@@ -1,0 +1,18 @@
+Esse projeto foi feito em Python 2.7.1 usando framework Eclipse Helios.
+Primeiro baixe o plugin PyDev para o eclipse em http://pydev.orgmanual_101_install.html.
+Monte e importe o projeto para o eclipse.
+O projeto usa o modulo "lxml" para parsing e criacao de arvore XML,
+veja o modulo descrito em htt://lxml.de.
+
+O projeto tambem usa o projeto Apache PdfBox, o unico que foi capaz de decodificar
+pdfs mal formados em um texto tratavel minimamente, pelo menos nesse caso.
+A dificuldade e que o utilitario tem que ser instalado e chamado pelo projeto
+a partir da linha de comando. Para instalar o PdfBox, veja em htt://pdfbox.apache.org.
+
+Boa sorte pois eu ralei um pouco. PDFs nao sao faceis, tentei varias abordagens como
+PyPdf sem sucesso, bem como 'wget' para extracao de texto mas sem sucesso.
+
+Essa foi a melhor abordagem que consegui num curto espaco de tempo.
+
+Afinal sou so um newbie em Python e adjacencias...
+Cassio / 23Mai2011
